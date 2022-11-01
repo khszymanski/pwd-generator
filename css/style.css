@@ -1,0 +1,49 @@
+#pwd, .options, #center-text{
+    margin: 0 auto;
+}
+
+#pwd, input{
+    border-radius: 5px;
+}
+input{
+    padding: 5px;
+}
+
+#center-text{
+    padding-top: 30%;
+}
+
+#generatedPwd{
+    width: calc(90% - 30px);
+    padding: 15px;
+    font-size: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+#copy{
+    width: calc(10% - 30px);
+    padding: 15px 30px 15px 30px;
+}
+#copy:hover{
+    cursor: pointer;
+}
+
+input[type=button]{
+    border: none;
+    height: 45px;
+}
+
+input[type=button]:first-child{
+    margin-right: 10px;
+}
+input[type=button]:last-child{
+    margin-left: 10px;
+}
+
+
+footer img{
+    height: 25px !important; 
+    width: auto;
+}

@@ -1,0 +1,56 @@
+*,
+html,
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body header {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+div.container {
+    height: 100%;
+    max-width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    max-width: 72rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+div#center-text {
+    height: 100%;
+    align-self: center;
+    //display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    margin-top: 0.1rem;
+}

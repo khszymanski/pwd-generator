@@ -1,0 +1,59 @@
+*,
+html,
+body,
+ul,
+li {
+    color: #000;
+}
+
+html,
+body {
+    background: rgb(30, 30, 30);
+}
+
+#pwd{
+    background: #f4f4f4;
+}
+
+#pwd span, .options span{
+    color: #aeaeae;
+}
+
+.copy{
+    border-left: 1px solid #aeaeae;
+}
+
+.button input{
+    background: #2b7cff;
+    color: #fff;
+}
+
+.button input:hover{
+    background: #1d53ab;
+}
+
+.num{
+    color: #ff0000 !important;
+}
+.symbol{
+    color: #4287f5 !important;
+}
+.letter{
+    color: #000 !important;
+}
+
+/*
+.capital{
+    color: #2aa17b !important;
+}
+.small{
+    color: #97a12a !important;
+}
+*/
+
+footer span{
+ color: #595959;   
+}
+footer a{
+    color: #ff0035;
+}
